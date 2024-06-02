@@ -42,7 +42,7 @@ function sendData() {
         })
         .then(data => {
             let result = document.getElementById('result');
-            result.innerHTML = `<h3>Price of the car is: ${data}<h3>`;
+            result.innerHTML = `Price of the car is: ${data}`;
         })
         .catch(error => console.error('Error:', error));
     ;

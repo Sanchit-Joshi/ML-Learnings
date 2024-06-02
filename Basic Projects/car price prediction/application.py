@@ -32,7 +32,7 @@ def predict():
     year = int(request.form['year'])
     driven = int(request.form['km_driven'])
     fuel_type = request.form['fuel_type']
-    print(company,car_model,year,driven,fuel_type)
+    print(company)
     
     
 
